@@ -297,7 +297,5 @@ document.querySelector('#show-image').addEventListener("change", previewImages);
 
 
         });
-CKEDITOR.replace('thongtin');
-   
   </script>
 <?php require('end.php'); ?>
