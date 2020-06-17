@@ -154,9 +154,6 @@ if($TMQ['admin'] == 0){
 
 
         });
-
-CKEDITOR.replace('thongtin');
-CKEDITOR.replace('img');
     </script>
     
 <?php require('end.php'); ?>
