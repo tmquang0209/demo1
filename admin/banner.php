@@ -225,9 +225,6 @@ foreach($get as $row){
 </div><!-- .animated -->
 </div><!-- .content -->
     <div class="clearfix"></div>
-
-
-
 <?php
 require('end.php');
 ?>
