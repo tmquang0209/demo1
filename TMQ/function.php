@@ -285,14 +285,3 @@ $str = str_replace(' ','-',$str);
 return $str;
  
 }
-
-function check_key(){
-    $website = $_SERVER['SERVER_NAME'];
-     $key = file_get_contents("https://$website/key.txt");
-        $check = file_get_contents("https://tmquang.xyz?active=$key&web=$website");
-        if($check == 1){
-            die('<h1>VUI LÒNG KÍCH HOẠT WEBSITE ĐỂ SỬ DỤNG.');
-        }
-    
-}
-echo check_key();
