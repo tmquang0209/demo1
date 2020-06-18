@@ -41,7 +41,7 @@ $count_info4 = count($thongtin4);
             <div class="col-sm-12">
                 <div class="alert alert-info" role="alert">
                     <h2 class="alert-heading"><?=$get['ten'];?></h2>
-                    <p><?=$get['thongbao'];?>
+                    <p><?=html_entity_decode($get['thongbao']);?>
 <p>&nbsp;</p></p>
                 </div>
             </div>
