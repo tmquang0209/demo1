@@ -121,7 +121,7 @@ $("#send_odp").on("click", function(){
                                                                     <tr>
                                         
                                                                         <td style="width:50%">Thông tin:</td>
-                                                        <td class="text-danger" style="font-weight: 700"><?=$dulieu['thongtin'];?></td>
+                                                        <td class="text-danger" style="font-weight: 700"><?=html_entity_decode($dulieu['thongtin']);?></td>
                                                                                                                                                                   </tr>
 
 
