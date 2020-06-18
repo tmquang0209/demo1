@@ -139,7 +139,9 @@ $(document).ready(function() {
                         <a href="/admin/bien-doi.html"> <i class="menu-icon fa fa-bar-chart-o"></i>Biến đổi số dư</a>
                     </li>
                      <li class="menu-title">Cài đặt shop</li><!-- /.menu-title -->
-
+			 <li>
+                        <a href="/admin/setting_email.php"> <i class="menu-icon ti-settings"></i>Thông tin email </a>
+                    </li>
                    <li>
                         <a href="/admin/thong-tin.html"> <i class="menu-icon ti-settings"></i>Thông tin shop </a>
                     </li>
