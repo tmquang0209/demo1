@@ -4,9 +4,8 @@
 /// vui lòng không xóa dòng này               ///
 /// cảm ơn các bạn đã sử dụng bộ code nàyy    ///
 /////////////////////////////////////////////////
-?>
-<?php require_once('TMQ/function.php'); ?>
-<?php require_once('TMQ/head.php');
+require_once('TMQ/function.php'); 
+require_once('TMQ/head.php');
 $id = isset($_GET['id']) ? (int)$_GET['id'] : NULL;
 $get = $db->query("SELECT * FROM `TMQ_chuyenmuc` WHERE `id` = '$id'")->fetch();
 $acc = $db->query("SELECT * FROM `TMQ_baiviet` WHERE `loainick` = '$id'")->rowCount();
@@ -311,5 +310,4 @@ echo '<center>' . phantrang($link, $from, $tong, $sotin1trang) . '</center>';
 </div>	
 		</div>
 	</div>
-	<?php
-require_once('TMQ/end.php');
+<?php require_once('TMQ/end.php'); ?>
