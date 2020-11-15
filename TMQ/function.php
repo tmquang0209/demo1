@@ -100,8 +100,7 @@ function get_img($path){
 }
 //bọc dữ liệu 
 function tmq_boc($var){
-$dulieu = trim(addslashes(htmlspecialchars($var)));
-return $dulieu;    
+ return trim(addslashes(htmlspecialchars(strip_tags($var),ENT_QUOTES,'UTF-8')));
 }
 //list bank
 function string_bank($bank)
